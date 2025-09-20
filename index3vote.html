@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My 2nd website</title>
+    <link rel="stylesheet" href="style3vote.css">
+</head>
+<body>
+    <h1 id="title">List of candidates for presidentship</h1>
+
+    <form class="voting" action="#" method="post">
+        <div class="info">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your name.." required>
+
+            <label for="email">Email adress:</label>
+            <input type="email" id="email" name="email" placeholder="student@gmail.com" required>
+
+            <label for="candidate">Candidate:</label>
+            <select id="candidate" name="candidate" required>
+                <option value="" selected disabled>Choose a candidate</option>
+                <option value="Arsen">Arsen</option>
+                <option value="Arujan">Arujan</option>
+                <option value="Sanjar">Sanjar</option>
+            </select>
+            <label>Did you choose who you wanted?</label>
+            <div class="hint">Pick one option</div>
+            <div class="radio">
+                <label for="yes"><input type="radio" id="yes" name="choose" value="yes" required>Yes</label>
+                <label for="no"><input type="radio" id="no" name="choose" value="no" required>No</label>
+            </div>
+
+            <label for="comments">Comments</label>
+            <textarea id="comments" name="comments" placeholder="Share with your opinion.." style="height:100px"></textarea>
+
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+
+   <div class="knopki">
+        <div class="back1">
+                <a href="index1.html">Back to Task 1</a>
+        </div>
+        <div class="back2">
+            <a href="index3.html">Back to Task 3</a>
+        </div>
+    </div>
+
+   <footer>
+        <p>©My website | All rights reserved | Nurtay A.</p>
+    </footer>
+
+</body>
+</html>

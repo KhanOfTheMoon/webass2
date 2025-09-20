@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+    font-family: 'Roboto', system-ui, 'Segoe UI', Arial, sans-serif;
+}
+
+.header{
+    width: 100%;
+    height: 120px;
+    line-height: 120px;
+    background-color: rgb(66, 68, 66);
+    text-align: center;
+    color: white;
+    font-size:30px;
+    font-weight: bold;
+    font-family: 'Playfair Display', 'Roboto', serif; 
+}
+
+.about{
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border: gray 2px solid;
+    border-radius: 30px;
+    box-shadow:5px 5px 20px gray;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.about h2{
+    font-size: 30px;
+    font-family: 'Playfair Display', 'Roboto', serif; 
+}
+
+.about h3{
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', 'Roboto', serif; 
+}
+
+.about p{
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'Merriweather', 'Montserrat', serif;
+}
+
+.about img{
+    object-fit: cover;
+    width: 400px;
+    height: 400px;
+}
+
+.events{
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border: gray 2px solid;
+    border-radius: 30px;
+    box-shadow:5px 5px 20px gray;
+    background-color: black;
+    color: white;
+}
+
+.events h2{
+    font-size: 30px;
+    font-family: 'Playfair Display', 'Roboto', serif; 
+}
+
+.events li{
+    margin: 30px 0;
+    font-size: 20px;
+    font-family: 'Merriweather', 'Montserrat', serif;
+
+}
+
+.knopki {                    
+    text-align: center;      
+    margin: 10px 0 30px;  
+    font-family: 'Merriweather', 'Montserrat', serif;
+}
+
+.back,
+.more{
+    width: auto;             
+    display: inline-block;   
+    min-width: 220px;        
+    margin: 20px 12px;      
+    padding: 20px;
+    border: gray 2px solid;
+    border-radius: 30px;
+    box-shadow:5px 5px 20px gray;
+    background-color: black;
+    text-align: center;
+}
+
+.back a,
+.more a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+.back a:hover,
+.more a:hover{
+    color: gray;
+}   
+
+.footer{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    background-color: rgb(66, 68, 66);
+    color: white;
+}

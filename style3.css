@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f5f7fb;
+}
+
+#title{
+    text-align: center;
+    background-color: #fde7c8;
+    padding: 20px;
+    width: 50%;
+    margin: 20px auto;
+    border: gray 2px solid;
+    border-radius: 30px;
+}
+
+table{
+    width: 60%;
+    margin: 50px auto;
+    border-collapse: collapse;
+    box-shadow:5px 5px 20px gray;
+}
+
+table th{
+    background-color: #727aa0;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+table td{
+    background-color: white;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Merriweather', 'Montserrat', serif;
+}
+
+td.best{
+    background-color: #fff4cc;
+}
+
+.vote{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    padding: 5px 10px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    background-color: lightblue;
+    transition: all 0.5s ease;
+}
+
+.vote:hover{
+    color: gray;
+}
+
+.knopki{
+    text-align: center;
+    margin: 100px 0 30px;
+}
+
+.back1, .back2{
+    display: inline-block;
+    margin: 0 20px;
+    padding: 10px 20px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    background-color: lightblue;
+}
+
+.back1 a, .back2 a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    transition: all 0.5s ease;
+}
+
+.back1 a:hover, .back2 a:hover{
+    color: gray;
+}
+
+footer{
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(44, 137, 168);
+    color: white;
+    text-align: center; 
+    font-size: 18px;
+    position: absolute;
+    bottom: 0;
+}
